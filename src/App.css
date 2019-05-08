@@ -1,0 +1,285 @@
+/*header*/
+.btnHeader{
+    font-size: 80px;
+    margin-right: 1.5rem;
+    color: #343a40;
+    cursor: pointer;
+}
+.btnHeader:hover{
+    color:#343a40ec
+}
+.fa-arrow-left{
+    font-size: 30px;
+    border: 1px solid rgba(56, 56, 56, 0.835);
+    padding: 6px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.fa-arrow-left:hover{
+    background-color: #343a40;
+    color:white;
+}
+/* Login */
+.login{
+    height: 100%;
+    background: linear-gradient(
+    rgba(0, 0, 0, 0.13), 
+    rgba(53, 15, 15, 0.13)
+    ), url("./media/main.jpg");
+    background-size: cover;
+}
+/* Choix Personnage */
+.list-group{
+    margin: 70px 0;
+    font-size: 20px;
+}
+.list-group li{
+    padding: 15px 40px;
+}
+.titleChar{
+    margin: 50px 0;
+}
+.myChar{
+    background-color: white;
+    border: 1px solid rgba(56, 56, 56, 0.178);
+    border-radius: 13px;
+    margin: 0 25px;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.myChar h2{
+    margin: 20px 0;
+}
+.myChar h2 span{
+    font-weight: 350;
+}
+.myChar h3{
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+.charInfoChar{
+    text-align: left;
+}
+.charInfoChar span{
+    font-weight: 450;
+}
+.myChar:hover{
+    background-color: #343a40;
+    color:white;
+}
+.expChar{
+    text-align:left;
+    font-size: 14px;
+}
+.expChar h3{
+    font-size: 1.4rem;
+}
+/*ListRoom*/
+.roomlist{
+    background-color: white;
+    border: 1px solid rgba(56, 56, 56, 0.178);
+    border-radius: 7px;
+    margin: 45px auto;
+}
+.roomli{
+    border: 1px solid rgba(56, 56, 56, 0.178);
+    border-radius: 7px;
+    padding: 20px 30px; 
+}
+.roomli button{
+    width: 70%;
+}
+.roomli div{
+    text-align: center;
+}
+.roomli h2{
+    margin: 20px 0;
+    padding-left: 40px;
+}
+.roomli h2 span{
+    font-weight: 200;
+    font-size: 20px;
+    padding-left: 12px;
+}
+.roomli b{
+    font-weight: 350;
+    font-size: 19px;
+}
+/*FormRoom*/
+.formRoom{
+    width: 70%;
+    margin: 0 auto;
+}
+.formRoom button{
+    width: 25%;
+}
+.formRoom div{
+    width: 100%;
+    margin: 0 auto;
+}
+.formRoom .number{
+    width:10%;
+}
+.formRoom input{
+    margin: 30px 0px;
+    width: 70%;
+}
+.formRoom label{
+    width: 20%;
+}
+.formRoom textarea{
+    width: 70%;
+}
+
+
+.charChoices {
+    margin: 1rem;   
+  }
+  
+  .charBox {
+    display: flex;
+    margin:auto;
+    height:10rem;
+    width:10rem;
+    background-color: rgb(0, 0, 0, 0.7);
+    color:white; 
+    border-radius:1rem;
+    text-align:center;  
+   }
+  
+  .charBox:hover {
+   cursor: pointer;
+  }
+  
+  .active {
+    display: flex;
+    margin:auto;
+    height:10rem;
+    width:10rem;
+    background-color: rgb(0, 0, 0, 0.7);
+    color:white;  
+    border-radius:1rem;
+    text-align:center; 
+    -moz-box-shadow: 1px 1px 10px 5px #80BDFF;
+    -webkit-box-shadow: 1px 1px 10px 5px #80BDFF;
+    -o-box-shadow: 1px 1px 10px 5px #80BDFF;
+    box-shadow: 1px 1px 10px 5px #80BDFF;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#80BDFF, Direction=134, Strength=10); 
+  }
+  
+  .bg-1 {
+  background-size:100%;
+  background-image: url(../src/Img/archer.png);
+  border-radius:1rem;
+  }
+  
+  .bg-2 {
+  background-size:100%;
+  background-image: url(../src/Img/warrior.png);
+  border-radius:1rem;
+  }
+  
+  .bg-3 {
+  background-size:100%;
+  background-image: url(../src/Img/wizzard.png);
+  border-radius:1rem;
+  }
+  
+  .bgRace-1 {
+  background-size:100%;
+  background-image: url(../src/Img/human.png);
+  border-radius:1rem;
+  }
+    
+  .bgRace-2 {
+  background-size:100%;
+  background-image: url(../src/Img/orc.png);
+  border-radius:1rem;
+  }
+    
+  .bgRace-3 {
+  background-size:100%;
+  background-image: url(../src/Img/elf.png);
+  border-radius:1rem;
+  }
+  
+  h2 {
+    margin:1.5rem;
+  }
+/*Room*/
+.sidebar{
+    background-color: #343a40;
+    width:100%;
+    height: 100%;
+    color: white;
+    padding: 1.5rem 1rem;
+    font-size: 1.5rem;
+    text-align:left;
+}
+.sidebar h2{
+    margin: 0;
+    padding: 0;
+}
+.sidebar h3{
+    margin: 20px 20px;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 300;
+}
+.sidebarMain{
+    padding:0;
+}
+.message{
+    overflow: scroll;
+    height: 100%;
+    max-height: 100%;
+}
+.pmessage{
+    padding: 30px;
+}
+.formMessage{
+    width: 100%;
+    margin: 0;
+}
+.formMessage i{
+    font-size: 40px;
+}
+.formMessage textarea{
+    width:80%;
+    height: 100%;   
+}
+.btnMessage button{
+    width: 100%;
+    height: 40px;
+    margin-top: 3px;
+}
+.containerMessage{
+    display: flex;
+    flex-direction: column;
+}
+.compRoom{
+    height: 85%;
+}
+.btnfocus i{
+    font-size: 20px;
+}
+/*Modales*/
+.characters-list {
+    margin-top: 1rem;
+}
+.character-name {
+    position: relative;
+}
+.character-card {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 5rem;
+    min-width: 18rem;
+    border-radius: 1rem;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+}

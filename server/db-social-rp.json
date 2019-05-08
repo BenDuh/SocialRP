@@ -1,0 +1,189 @@
+{
+  "character": [
+    {
+      "id": 1,
+      "name": "El Pueblo",
+      "race": "Humain",
+      "class": "Archer",
+      "level": 9,
+      "exp": 50,
+      "user_id": 1,
+      "stats": {
+        "life": 80,
+        "strength": 90,
+        "intelligence": 70,
+        "dexterity": 100
+      }
+    },
+    {
+      "id": 2,
+      "name": "Le Boss",
+      "race": "Elfe",
+      "class": "Guerrier",
+      "level": 4,
+      "exp": 30,
+      "user_id": 2,
+      "stats": {
+        "life": 100,
+        "strength": 100,
+        "intelligence": 50,
+        "dexterity": 35
+      }
+    },
+    {
+      "id": 3,
+      "name": "Paco",
+      "race": "Nain",
+      "class": "Mage",
+      "level": 15,
+      "exp": 45,
+      "user_id": 3,
+      "stats": {
+        "life": 50,
+        "strength": 60,
+        "intelligence": 100,
+        "dexterity": 90
+      }
+    },
+    {
+      "id": 4,
+      "name": "Truc",
+      "race": "Nain",
+      "class": "Mage",
+      "level": 13,
+      "exp": 45,
+      "user_id": 1,
+      "stats": {
+        "life": 50,
+        "strength": 60,
+        "intelligence": 100,
+        "dexterity": 90
+      }
+    },
+    {
+      "id": 5,
+      "name": "Mademoiselle Mathy",
+      "race": "Humain",
+      "class": "Guerrier",
+      "level": 0,
+      "exp": 0,
+      "user_id": 1,
+      "stats": {
+        "life": 100,
+        "strength": 100,
+        "intelligence": 50,
+        "dexterity": 35
+      }
+    },
+    {
+      "id": 6,
+      "name": "Fantasy",
+      "race": "Orc",
+      "class": "Guerrier",
+      "level": 0,
+      "exp": 0,
+      "stats": {
+        "life": 100,
+        "strength": 100,
+        "intelligence": 50,
+        "dexterity": 35
+      },
+      "user_id": 1
+    },
+    {
+      "id": 6,
+      "name": "test",
+      "race": "Orc",
+      "class": "Archer",
+      "level": 0,
+      "exp": 0,
+      "stats": {
+        "life": 80,
+        "strength": 90,
+        "intelligence": 70,
+        "dexterity": 100
+      },
+      "user_id": 2
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "username": "Benoit"
+    },
+    {
+      "id": 2,
+      "username": "Leo"
+    },
+    {
+      "id": 3,
+      "username": "Julien"
+    }
+  ],
+  "room": [
+    {
+      "id": 1,
+      "name": "Vivre dans un donjon",
+      "description": "Un salon avec des bens biens et forts",
+      "userMax": 7,
+      "adminName": "Leo",
+      "charIds": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "sxsx",
+      "description": "QxsxQS",
+      "userMax": 7,
+      "adminName": "Leo",
+      "charIds": [
+        5,
+        2
+      ],
+      "id": 2
+    },
+    {
+      "name": "Darkweb-related",
+      "description": "aze",
+      "userMax": 7,
+      "adminName": "Leo",
+      "charIds": [
+        1,
+        2
+      ],
+      "id": 3
+    }
+  ],
+  "messages": [
+    {
+      "roomId": 1,
+      "charName": "El Pueblo",
+      "content": "rer",
+      "date": 1556543919706,
+      "id": 17
+    },
+    {
+      "id": 18,
+      "roomId": 1,
+      "charName": "Leo",
+      "content": "Ceci est un messaaaaage de test, je répète, ceci est un message de test.",
+      "date": 1556544340032
+    },
+    {
+      "roomId": 1,
+      "charName": "Le Boss",
+      "content": "Leoeoev",
+      "date": 1557057763840,
+      "id": 19
+    },
+    {
+      "id": 20,
+      "roomId": 1,
+      "charName": "Truc",
+      "content": "Fail",
+      "date": 1557057852501
+    }
+  ]
+}
